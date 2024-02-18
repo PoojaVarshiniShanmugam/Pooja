@@ -1,0 +1,102 @@
+* {
+  margin:0;
+  padding: 0;
+  font-family: 'acme', sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+
+  body {
+    background:#070a21;
+}
+
+    
+  
+
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow:1px 5px white ;
+  font-size: 6rem;
+  color:#4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+  text-shadow: 1px 1px white ;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  font-size:15px;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-family: serif;
+  font-size: 2rem;
+  width: 150px;
+  height: 70px;
+  background-color: #4ECCA3;
+  color:white;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+
+.dice p {
+  font-size: 2rem; 
+  color: #4ECCA3;
+}
+
+.butn {
+  width: 100%; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+button {
+  padding: 17px 40px;
+  border-radius: 50px;
+  color: white;
+  font-size: 15px;
+  background-color: #00b894;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+.button {position: absolute;
+  top: 150px;
+  margin-top:50%; 
+}
+    
+  
+
+button:hover {
+  background-color: #4ECCA3;
+  letter-spacing: 3px;
+  color: #ffffff;
+  box-shadow: #4ecca3 0px 7px 29px ;
+}
