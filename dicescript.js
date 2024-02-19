@@ -19,11 +19,11 @@ function myfunction() {
     
     var img1 = document.querySelectorAll(".img1")[0];
     var img2 = document.querySelectorAll(".img2")[0];
-    var img3 = document.querySelector(".img3");
+    var img3 = document.querySelectorAll(".img3")[0];
     
     img1.setAttribute("src", randomImageSource1);
     img2.setAttribute("src", randomImageSource2);
-
+    img3.setAttribute("src", randomImageSource3);
     
     var resultText = document.querySelector("h1");
     if (randomNumber1 > randomNumber2 && randomNumber1 > randomNumber3) {
